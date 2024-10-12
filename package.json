@@ -1,0 +1,25 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --testMatch='**/tests/**/e2e/*.spec.ts'"
+  },
+  "dependencies": {
+    "@google-cloud/dialogflow": "^6.8.0"
+  },
+  "name": "dialogflow-wrapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.4",
+    "eslint": "^9.11.1",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
